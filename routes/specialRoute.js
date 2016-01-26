@@ -4,7 +4,7 @@ var hactarjs = require('hactarjs');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.status(400).send('Bad Request');
+  res.status(418).send('I want to be a teapot');
   console.log('Oh no!');
 });
 
